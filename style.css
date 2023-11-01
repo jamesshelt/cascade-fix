@@ -8,7 +8,7 @@ body {
     font-weight: 800;
   }
   
-  .small-para {
+  #small-para {
     font-size: 14px;
     font-weight: 800;
   }
@@ -17,7 +17,21 @@ body {
     font-size: 22px;
   }
   
-  .confirm {
+/* v1- added sel and attributes */
+
+  .para {
+    font-size: 32px;
+  }
+
+/* v1-added sel and attributes */
+
+  .para.small-para {
+    font-size: 14px;
+  }
+
+/* v1-added ".button" */
+
+  .button.confirm {
     background: green;
     color: white;
     font-weight: bold;
@@ -39,4 +53,11 @@ body {
     color: rgb(0, 0, 0);
     font-size: 22px;
     font-weight: 100;
+  }
+
+  /* v1- added sel and attributes */
+
+  div.text.child {
+    font-weight: bold;
+    font-size: 16px;
   }
